@@ -15,3 +15,4 @@ I'm building this project on an Ubuntu Linux 18.04 installation. I've installed 
 `./run_tests.sh`
 
 This will build and run the test of the model layer with G++ on Linux. Later, this will be switched to the emcc compiler for WebAssembly.
+
