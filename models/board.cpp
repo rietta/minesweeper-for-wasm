@@ -5,3 +5,7 @@ Board::Board(int width, int height, int mineCount) {
   this->height = height;
   this->mineCount = mineCount;
 }
+
+bool Board::ready() {
+  return false;
+}

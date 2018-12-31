@@ -5,5 +5,7 @@ class Board
   int mineCount;
 
   public:
-    Board(int width, int height, int mineCount);
+
+  Board(int width, int height, int mineCount);
+  bool ready();
 };
