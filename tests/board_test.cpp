@@ -6,11 +6,6 @@ const int WIDTH=16;
 const int HEIGHT=16;
 const int MINES = 10;
 
-BOOST_AUTO_TEST_CASE(dummy)
-{
-  BOOST_CHECK(1 + 1 == 2);
-}
-
 BOOST_AUTO_TEST_CASE(constructors_test) {
   Board* board = new Board(WIDTH, HEIGHT, MINES);
   BOOST_TEST(board->getWidth() == WIDTH);
