@@ -1,3 +1,5 @@
+Current Status: Prototype
+
 # Minesweeper to WebAssembly
 
 This is a learning project to excercise Test Driven Development and WebAssembly. It does so by implementing a game of minesweeper.
