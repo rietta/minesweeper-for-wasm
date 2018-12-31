@@ -1,13 +1,5 @@
-#include <iostream>
-#include "../models/board.h"
-
-#define BOOST_TEST_MODULE Board
+#define BOOST_TEST_MODULE const_string Minesweeper Board
 #include <boost/test/unit_test.hpp>
 
-using namespace std;
+#include "../models/board.h"
 
-int main()
-{
-  cout << "Welcome to the Minesweeper Game..." << endl;
-  return 0;
-}
